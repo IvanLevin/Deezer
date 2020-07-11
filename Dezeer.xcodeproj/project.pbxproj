@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC060C7DE2EA6428AF9EF63 /* libPods-Dezeer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940B0E202A7CD25A8E7FCCE9 /* libPods-Dezeer.a */; };
+		5396450524BA035F00169AB6 /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5396450424BA035F00169AB6 /* ErrorPresenter.swift */; };
+		5396450824BA03A700169AB6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5396450724BA03A700169AB6 /* Error.swift */; };
+		5396450B24BA03E100169AB6 /* TryAgainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5396450A24BA03E100169AB6 /* TryAgainView.swift */; };
 		53D399AB24B9FF39005FC1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399AA24B9FF39005FC1BB /* AppDelegate.swift */; };
 		53D399AD24B9FF39005FC1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399AC24B9FF39005FC1BB /* SceneDelegate.swift */; };
 		53D399AF24B9FF39005FC1BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399AE24B9FF39005FC1BB /* ViewController.swift */; };
 		53D399B224B9FF39005FC1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D399B024B9FF39005FC1BB /* Main.storyboard */; };
 		53D399B424B9FF3B005FC1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D399B324B9FF3B005FC1BB /* Assets.xcassets */; };
 		53D399B724B9FF3B005FC1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D399B524B9FF3B005FC1BB /* LaunchScreen.storyboard */; };
-		53D399C624B9FF79005FC1BB /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399BE24B9FF79005FC1BB /* LoginPresenter.swift */; };
-		53D399C724B9FF79005FC1BB /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399BF24B9FF79005FC1BB /* LoginWorker.swift */; };
-		53D399C824B9FF79005FC1BB /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C024B9FF79005FC1BB /* LoginRouter.swift */; };
-		53D399C924B9FF79005FC1BB /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C124B9FF79005FC1BB /* LoginModels.swift */; };
-		53D399CA24B9FF79005FC1BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C224B9FF79005FC1BB /* LoginViewController.swift */; };
-		53D399CB24B9FF79005FC1BB /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C324B9FF79005FC1BB /* LoginBuilder.swift */; };
-		53D399CC24B9FF79005FC1BB /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C424B9FF79005FC1BB /* LoginInteractor.swift */; };
-		53D399CD24B9FF79005FC1BB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D399C524B9FF79005FC1BB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5396450424BA035F00169AB6 /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		5396450724BA03A700169AB6 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		5396450A24BA03E100169AB6 /* TryAgainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAgainView.swift; sourceTree = "<group>"; };
 		53D399A724B9FF39005FC1BB /* Dezeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dezeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D399AA24B9FF39005FC1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53D399AC24B9FF39005FC1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,14 +31,9 @@
 		53D399B324B9FF3B005FC1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D399B624B9FF3B005FC1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53D399B824B9FF3B005FC1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53D399BE24B9FF79005FC1BB /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		53D399BF24B9FF79005FC1BB /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
-		53D399C024B9FF79005FC1BB /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
-		53D399C124B9FF79005FC1BB /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
-		53D399C224B9FF79005FC1BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		53D399C324B9FF79005FC1BB /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
-		53D399C424B9FF79005FC1BB /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		53D399C524B9FF79005FC1BB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7491C73E8051118D11529012 /* Pods-Dezeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dezeer.debug.xcconfig"; path = "Target Support Files/Pods-Dezeer/Pods-Dezeer.debug.xcconfig"; sourceTree = "<group>"; };
+		940B0E202A7CD25A8E7FCCE9 /* libPods-Dezeer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dezeer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6087CBA2A23A6018F11F55E /* Pods-Dezeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dezeer.release.xcconfig"; path = "Target Support Files/Pods-Dezeer/Pods-Dezeer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +41,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC060C7DE2EA6428AF9EF63 /* libPods-Dezeer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5396450224BA033500169AB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5396450324BA034B00169AB6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5396450424BA035F00169AB6 /* ErrorPresenter.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5396450624BA039C00169AB6 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				5396450724BA03A700169AB6 /* Error.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		5396450924BA03D300169AB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5396450A24BA03E100169AB6 /* TryAgainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		53D3999E24B9FF39005FC1BB = {
 			isa = PBXGroup;
 			children = (
 				53D399A924B9FF39005FC1BB /* Dezeer */,
 				53D399A824B9FF39005FC1BB /* Products */,
+				82BD6B5D6C0B3FEFDF3C9669 /* Pods */,
+				E6DDDEC2AC21244EEEA8C15C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +100,10 @@
 		53D399A924B9FF39005FC1BB /* Dezeer */ = {
 			isa = PBXGroup;
 			children = (
-				53D399CF24B9FFAB005FC1BB /* Главная */,
+				5396450924BA03D300169AB6 /* View */,
+				5396450624BA039C00169AB6 /* Struct */,
+				5396450324BA034B00169AB6 /* Protocol */,
+				5396450224BA033500169AB6 /* Controllers */,
 				53D399AA24B9FF39005FC1BB /* AppDelegate.swift */,
 				53D399AC24B9FF39005FC1BB /* SceneDelegate.swift */,
 				53D399AE24B9FF39005FC1BB /* ViewController.swift */,
@@ -84,35 +115,21 @@
 			path = Dezeer;
 			sourceTree = "<group>";
 		};
-		53D399CF24B9FFAB005FC1BB /* Главная */ = {
+		82BD6B5D6C0B3FEFDF3C9669 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53D399D024B9FFB3005FC1BB /* Controllers */,
+				7491C73E8051118D11529012 /* Pods-Dezeer.debug.xcconfig */,
+				B6087CBA2A23A6018F11F55E /* Pods-Dezeer.release.xcconfig */,
 			);
-			path = "Главная";
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		53D399D024B9FFB3005FC1BB /* Controllers */ = {
+		E6DDDEC2AC21244EEEA8C15C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53D399D124B9FFDC005FC1BB /* Авторизация */,
+				940B0E202A7CD25A8E7FCCE9 /* libPods-Dezeer.a */,
 			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		53D399D124B9FFDC005FC1BB /* Авторизация */ = {
-			isa = PBXGroup;
-			children = (
-				53D399BE24B9FF79005FC1BB /* LoginPresenter.swift */,
-				53D399BF24B9FF79005FC1BB /* LoginWorker.swift */,
-				53D399C024B9FF79005FC1BB /* LoginRouter.swift */,
-				53D399C124B9FF79005FC1BB /* LoginModels.swift */,
-				53D399C224B9FF79005FC1BB /* LoginViewController.swift */,
-				53D399C324B9FF79005FC1BB /* LoginBuilder.swift */,
-				53D399C424B9FF79005FC1BB /* LoginInteractor.swift */,
-				53D399C524B9FF79005FC1BB /* LoginView.swift */,
-			);
-			path = "Авторизация";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53D399BB24B9FF3B005FC1BB /* Build configuration list for PBXNativeTarget "Dezeer" */;
 			buildPhases = (
+				E720C93C1B84177585A6A4E7 /* [CP] Check Pods Manifest.lock */,
 				53D399A324B9FF39005FC1BB /* Sources */,
 				53D399A424B9FF39005FC1BB /* Frameworks */,
 				53D399A524B9FF39005FC1BB /* Resources */,
@@ -143,7 +161,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Levin Ivan";
+				ORGANIZATIONNAME = "Levin Ivan & Nichkov Mikhail";
 				TargetAttributes = {
 					53D399A624B9FF39005FC1BB = {
 						CreatedOnToolsVersion = 11.5;
@@ -181,22 +199,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E720C93C1B84177585A6A4E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dezeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53D399A324B9FF39005FC1BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D399C724B9FF79005FC1BB /* LoginWorker.swift in Sources */,
-				53D399C624B9FF79005FC1BB /* LoginPresenter.swift in Sources */,
-				53D399C924B9FF79005FC1BB /* LoginModels.swift in Sources */,
-				53D399C824B9FF79005FC1BB /* LoginRouter.swift in Sources */,
-				53D399CA24B9FF79005FC1BB /* LoginViewController.swift in Sources */,
 				53D399AF24B9FF39005FC1BB /* ViewController.swift in Sources */,
-				53D399CB24B9FF79005FC1BB /* LoginBuilder.swift in Sources */,
 				53D399AB24B9FF39005FC1BB /* AppDelegate.swift in Sources */,
-				53D399CD24B9FF79005FC1BB /* LoginView.swift in Sources */,
-				53D399CC24B9FF79005FC1BB /* LoginInteractor.swift in Sources */,
 				53D399AD24B9FF39005FC1BB /* SceneDelegate.swift in Sources */,
+				5396450824BA03A700169AB6 /* Error.swift in Sources */,
+				5396450524BA035F00169AB6 /* ErrorPresenter.swift in Sources */,
+				5396450B24BA03E100169AB6 /* TryAgainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +376,7 @@
 		};
 		53D399BC24B9FF3B005FC1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7491C73E8051118D11529012 /* Pods-Dezeer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -356,6 +395,7 @@
 		};
 		53D399BD24B9FF3B005FC1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6087CBA2A23A6018F11F55E /* Pods-Dezeer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

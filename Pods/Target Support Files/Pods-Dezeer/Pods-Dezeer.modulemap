@@ -1,0 +1,6 @@
+module Pods_Dezeer {
+  umbrella header "Pods-Dezeer-umbrella.h"
+
+  export *
+  module * { export * }
+}
